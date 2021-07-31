@@ -1,0 +1,27 @@
+-open Terminal
+-sudo apt-get update
+-sudo apt-get upgrade
+-sudo apt-get install tasksel
+-sudo tasksel install lamp-server
+-sudo apt-get update
+-sudo systemctl restart apache2
+-php -v
+-Go to browser and write "localhost" and Enter
+-mysql -V
+-sudo mysql
+-create user 'admin'@'localhost' identified by '123456';
+-grant all privileges on * . * to 'admin'@'localhost';
+-flush privileges;
+-exit;
+-sudo apt install phpmyadmin
+-choose php my admin by using arrow and space
+-and use tap to go to ok and Enter
+-and choose yes and Enter
+-Enter Password "123456"
+-And comfirm password
+-Go to Browser and enter "localhost/phpmyadmin"
+-Enter user-admin and password-123456
+-Create a folder and Create a file "index.php"
+-In "index.php" write "<?php echo 'hello'; ?>"
+-Save this file and open terminal and run "php -S localhost:8000"
+-Go to browser and write "localhost:8000"
